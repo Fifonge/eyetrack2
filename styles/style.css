@@ -1,0 +1,293 @@
+/*
+Theme Name: ContentBerg Child
+Theme URI: http://theme-sphere.com/
+Description: A child theme of ContentBerg
+Author: ThemeSphere
+Author URI: http://theme-sphere.com
+Template: contentberg
+Version: 1.0
+*/
+
+
+#selected_posts_in_widget-2 li {
+  border-bottom: 1px dotted #e2e2e2;
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+#selected_posts_in_widget-2 li a {
+  color: #555;
+}
+#selected_posts_in_widget-2 li a strong {
+  color: #fff;
+  padding: 1px 2px;
+  margin-right: 5px;
+  border-radius: 2px;
+  font-weight: 300;
+  background: #a71009;
+}
+
+.post_list_custom  article{
+    display: block !important;
+    padding-bottom: 7px !important;
+    margin-bottom: 7px !important;
+}
+.post_list_custom  article a{
+    font-size: 18px !important;
+    text-decoration: none;
+    box-shadow: none;
+    color: #6699cc !important;
+}
+.post_list_custom  article a:hover{
+    text-decoration: none !important;
+    box-shadow: none;
+}
+#post-27713 .post-meta, #post-27848 .post-meta{
+    display: none; 
+}
+.page-numbers.current {
+  color: #fff;
+  background: #005b90;
+  border-color: #005b90;
+  font-weight: normal;
+}
+.pagination a, .pagination strong, .pagination span {
+  color: #222;
+  background: #fafafa;
+  border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+  padding: 3px 8px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.wp-block-ub-content-toggle-accordion-content-wrap{
+    background: #fafafa;
+}
+.whiteBG .wp-block-ub-content-toggle-accordion-content-wrap{
+    background: #fff;
+}
+.wp-block-ub-content-toggle-accordion-content-wrap ul,
+.wp-block-ub-content-toggle-accordion-content-wrap ol{
+	padding-left:20px;
+}
+.wp-block-ub-content-toggle-accordion-content-wrap .wp-block-column{
+    background: #fff;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.wp-block-ub-content-toggle-accordion-content-wrap .wp-block-column p a{
+    font-size: 14px !important;
+}
+.wp-block-ub-content-toggle-accordion-content-wrap .wp-block-column p{
+    margin-bottom: 0px;
+}
+.wym_sceptyk {
+  padding: 6px 10px;
+}
+.wym_sceptyk.wym_taj {
+  color: #000;
+  background-color: #fce3ca;
+  border: 1px solid #f6cda7;
+  padding: 6px 10px;
+  text-align: justify;
+}
+.wym_sceptyk {
+  background-color: #fce3ca;
+}
+#content img {
+}
+.wym_sceptyk.wym_nauka {
+  color: #000;
+  background-color: #e2f0d2;
+  border: 1px solid #c7e3b3;
+  padding: 6px 10px;
+}
+.wym_sceptyk .heading {
+  background: #f6cda7;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+  margin: 4px 0 10px;
+  content: "Mit";
+}
+/* .wym_sceptyk:before {
+    content: 'Mit';
+    background: #F6CDA7;
+}
+.wym_sceptyk:before{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    margin: 4px 0 10px;
+} */
+.wym_nauka .heading {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  background-color: #c7e3b3;
+  padding: 2px;
+  margin: 4px 0 10px;
+  content: "Stanowisko nauki";
+}
+/* .wym_nauka:before {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    background-color:#C7E3B3;
+    padding: 2px;
+    margin: 4px 0 10px;
+    content:'Stanowisko nauki';
+} */
+.wym_nauka.wym_taj {
+  color: #000;
+  background-color: #e2f0d2;
+  border: 1px solid #c7e3b3;
+  padding: 6px 10px;
+}
+p.wym_nauka {
+  color: #000;
+  background-color: #e2f0d2;
+  border: 1px solid #c7e3b3;
+  padding: 6px 10px;
+}
+p.wym_sceptyk {
+  color: #000;
+  background-color: #fce3ca;
+  border: 1px solid #f6cda7;
+  padding: 6px 10px;
+}
+#tabs {
+}
+#tabs ul.tabs {
+  margin: 0 !important;
+  padding: 0 0 0 20px;
+  border-bottom: 1px solid #6699cc;
+  height: 28px;
+}
+#tabs ul.tabs li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-bottom: 1px solid #f00;
+  color: #000;
+}
+#tabs ul.tabs li button {
+  font-weight: bold;
+  background: #fff;
+  border: 1px solid #6699cc;
+  color: #333;
+  float: left;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: 8px;
+  padding: 0 10px;
+  line-height: 27px;
+  text-decoration: none !important;
+}
+#tabs ul.tabs li button.active {
+  background: #6699cc;
+  /* border-bottom: 1px solid #fff; */
+  color: #fff;
+}
+
+.tabcontent {
+  border: 1px solid #6699cc;
+  border-top: none;
+  padding: 15px 15px 0;
+}
+p.wym_info {
+  color: #085aaf;
+  background-color: #dfeff7;
+  padding: 6px 10px;
+}
+.fb-page.fb_iframe_widget {
+}
+.wym_taj.wym_info {
+  color: #085aaf;
+  background-color: #dfeff7;
+  padding: 6px 10px;
+}
+.wym_taj.wym_info button {
+  background: none;
+  text-transform: none;
+  text-decoration: underline;
+  color: #6699cc;
+  padding: 0;
+  margin: 0;
+}
+
+.tabcontent ul{
+    padding-left: 25px;
+}
+
+.author-box .author .author_name, .author-box .author > a {
+  display: inline-block;
+  margin-top: -5px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 15px;
+}
+.wp-block-tag-cloud a{
+    box-shadow: none !important;
+}
+.wp-block-tag-cloud a:hover{
+    box-shadow: 0 -1px 0 0 var(--main-color, #000) inset !important;
+}
+img.dsq-widget-avatar{
+    padding-right:20px !important;
+}
+.dsq-widget-user{
+    display: block !important;
+}
+.dsq-widget-meta a:first-of-type {
+  display: none;
+}
+p.dsq-widget-meta a {
+  color: #6699cc;
+  text-decoration: underline !important;
+}
+p.dsq-widget-meta {
+  clear: both;
+  font-size: 80%;
+  padding: 0;
+    padding-left: 0px;
+  margin: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+p.dsq-widget-meta {
+  clear: both;
+  font-size: 80%;
+  padding: 0;
+  margin: 0;
+  padding-left: 25px !important;
+  line-height: 100%;
+  display: contents;
+}
+p.dsq-widget-meta {
+  clear: both;
+  font-size: 80%;
+  padding: 0;
+  margin: 0;
+}
+p.dsq-widget-meta {
+  margin-left: 25px !important;
+  margin-top: 10px !important;
+  color: #fff;
+  display: block !important;
+}
+.dsq-widget-comment {
+  padding-left: 50px;
+  display: block;
+}
+.wp-image-30747{
+	max-width:100% !important;
+}
